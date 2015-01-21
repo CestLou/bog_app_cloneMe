@@ -14,5 +14,67 @@
  *= require_self
  */
 
+body {
+    margin: 0;
+    padding: 0;
+    background: url("http://static.pexels.com/wp-content/uploads/2014/05/animal-black-and-white-bulldog-316.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.container {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.about-us {
+    background-color: rgba(0,0,0,0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+.heading {
+    background-color: rgba(0,0,0,0.7);
+    height: 500px;
+    border-radius: 10px;
+}
+
+.heading h1 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 50px;
+}
+
+.heading h2 {
+    font-size: 40px;
+}
+
+.heading h3 {
+    padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h2, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
 
 
