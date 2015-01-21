@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <nav class="navbar navbar-inverse">
@@ -51,12 +52,12 @@
 </nav>
 <div class="container">
 	<div class="row">
-		<div class="col-md-9">
+		<div class="col-md-6 col-md-offset-2 col-sm-6 col-sm-offset-2 heading">
 			<%= yield %>
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 about-us">
 			<h1>About Us</h1>
-			<h3>We get it. You want to make references to your colleagues and friends, describing them as dog breeds. Well, this website is for you. Label away!</h3>
+			<p>We get it. You want to make references to your colleagues and friends, describing them as dog breeds. Well, this website is for you. Label away!</p>
 		</div>
 	</div>
 </div>
